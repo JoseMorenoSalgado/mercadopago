@@ -1,43 +1,39 @@
-## Enrolment in Moodle using Mercadopago payment gateway for paid courses ##
+## Enrolment in Moodle using MercadoPago Payment Gateway for Paid Courses ##
 
-This plugin helps admins and webmasters use mercadopago as the payment gateway. 
+This plugin enables site administrators and webmasters to integrate MercadoPago as a payment gateway for paid courses.
 
-mercadopago.co is one of the most commonly used payment gateways in India offers considerable number of features unsupported by other payment gateways like Paypal. This plugin has all the settings for development as well as for production usage. Its easy to install, set up and effective.
+MercadoPago is one of the most widely used payment gateways in Latin America, offering a wide range of features not supported by other gateways like PayPal. This plugin includes all necessary settings for both development and production environments. It is easy to install, configure, and use effectively.
 
-## Supported Versions 4.0 4.1 4.2 4.3 4.4 4.5 ##
+## Supported Moodle Versions ##
+4.0, 4.1, 4.2, 4.3, 4.4, 4.5
 
-Installation Guidence : 
+## Installation Guide ##
 
-Login to your moodle site as an “admin user” and follow the steps.
+To install the plugin, log in to your Moodle site as an administrator and follow these steps:
 
-1) Upload the zip package from Site administration > Plugins > Install plugins. Choose Plugin type 'Enrolment method (enrol)'. Upload the ZIP package, check the acknowledgement and install.
+1. Upload the ZIP package via **Site administration > Plugins > Install plugins**. Select the plugin type **'Enrolment method (enrol)'**, upload the ZIP file, acknowledge the prompts, and complete the installation.
+2. Navigate to **Enrolments > Manage enrol plugins** and enable **'mercadopago'** from the list.
+3. Click **'Settings'** to access the plugin configuration page.
+4. Enter your MercadoPago merchant credentials, adjust any required options, and save the settings.
+5. Choose a course from the course listing page.
+6. Go to **Course administration > Users > Enrolment methods**, add the **'mercadopago'** enrolment method from the dropdown, configure the custom instance name, enrolment cost, and other parameters as needed. You may also set an enrolment period if desired.
 
-2) Go to Enrolments > Manage enrol plugins > Enable 'mercadopago' from list
-
-3) Click 'Settings' which will lead to the settings page of the plugin
-
-4) Provide merchant credentials for mercadopago, select the checkbox as per requirement. Save the settings.
-
-5) Select any course from course listing page.
-
-6) Go to Course administration > Users > Enrolment methods > Add method 'mercadopago' from the dropdown. Set 'Custom instance name', 'Enrol cost' etc and add the method. If require you may also set enrolment period.
-
-This completes all the steps from the administrator end. Now registered users can login to the Moodle site and view the course after a successful payment.
+Once these steps are completed, users can log in to Moodle, make payments via MercadoPago, and access the paid courses upon successful payment.
 
 ## License ##
 
-Copyright (C) 2019 Jonathan E. López G.
+Copyright (C) 2025 Jose Erasmo Moreno Salgado - Elearning Cloud
 
-2019 Jonathan López <jonathan.lopez.garcia@gmail.com>
+2025 Jose Erasmo Moreno Salgado <soporte@elearningcloud.org>
 
-This program is free software: you can redistribute it and/or modify it under
-the terms of the GNU General Public License as published by the Free Software
-Foundation, either version 3 of the License, or (at your option) any later
-version.
+This program is free software: you can redistribute it and/or modify it under  
+the terms of the GNU General Public License as published by the Free Software  
+Foundation, either version 3 of the License or (at your option) any later version.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY  
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A  
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with
-this program.  If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the GNU General Public License along with  
+this program. If not, see <http://www.gnu.org/licenses/>.
+
