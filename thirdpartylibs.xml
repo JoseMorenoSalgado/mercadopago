@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<thirdpartylibs>
+    <library>
+        <name>Mercado Pago SDK PHP</name>
+        <version>2.6.2</version> <!-- Cambia esto por la versión que estés utilizando -->
+        <license>MIT</license>
+        <licenseurl>https://opensource.org/licenses/MIT</licenseurl>
+        <origin>https://github.com/mercadopago/dx-php</origin>
+        <homepage>https://www.mercadopago.com</homepage>
+        <downloadurl>https://github.com/mercadopago/dx-php/releases</downloadurl>
+        <issuesurl>https://github.com/mercadopago/dx-php/issues</issuesurl>
+    </library>
+</thirdpartylibs>
